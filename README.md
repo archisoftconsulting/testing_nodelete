@@ -11,7 +11,7 @@ sudo docker-compose -f mongodb.yml up -d<br>
 cd jhipster_project/uaa/src/main/docker<br>
 sudo docker-compose -f jhipster-registry.yml up -d<br>
 ```
-## 3. Start UAA<br>
+## 3. Start UAA(OAuth2)<br>
 ```
 cd uaa
 ./mvnw
@@ -22,7 +22,7 @@ cd apigateway
 ./mvnw
 ```
 
-## 5. Start sidecar(spring)<br>
+## 5. Start sidecar(spring protect any rest any language)<br>
 ```
 cd sidecar
 mvn spring-boot:run
