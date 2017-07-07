@@ -36,6 +36,7 @@ mvn spring-boot:run
 
 ## 7. Start play-service(PlayFramework)<br>
 ```
+cd play-service
 ./sbt run
 ```
 
