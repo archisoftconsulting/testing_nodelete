@@ -8,22 +8,22 @@ sudo docker-compose -f mongodb.yml up -d<br>
 cd jhipster_project/uaa/src/main/docker<br>
 sudo docker-compose -f jhipster-registry.yml up -d<br>
 
-3. Start UAA
+3. Start UAA<br>
 ./mvnw
 
-4. Start apigateway
+4. Start apigateway<br>
 ./mvnw
 
-5. Start sidecar(spring)
+5. Start sidecar(spring)<br>
 mvn spring-boot:run
 
-6. Start microservice(Spring)
+6. Start microservice(Spring)<br>
 mvn spring-boot:run
 
-7. Start play-service(PlayFramework)
+7. Start play-service(PlayFramework)<br>
 ./sbt run
 
 Refer https://github.com/archisoftconsulting/How-to-OAuth2, on how to generate and consume protected service.
 
-How to Check docker status
+How to Check docker status<br>
 sudo docker ps
