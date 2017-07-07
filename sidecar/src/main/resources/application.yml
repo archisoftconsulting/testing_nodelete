@@ -1,0 +1,27 @@
+---
+spring:
+  application:
+    name: play-microservice  
+server:
+  port: 8888
+sidecar:
+  port: 9000
+  health-uri: http://localhost:9000/health
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+---
+spring:
+  application:
+    name: play-microservice2  
+server:
+  port: 8889
+sidecar:
+  port: 9001
+  health-uri: http://localhost:9001/health
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
