@@ -1,40 +1,40 @@
 # Steps to start:
 
-## 1. Start mongodb<br>
+## 1. Start mongodb
 ```
-cd jhipster_project/uaa/src/main/docker<br>
-sudo docker-compose -f mongodb.yml up -d<br>
+cd jhipster_project/uaa/src/main/docker
+sudo docker-compose -f mongodb.yml up -d
 ```
 
-## 2. Start service registry<br>
+## 2. Start service registry
 ```
-cd jhipster_project/uaa/src/main/docker<br>
-sudo docker-compose -f jhipster-registry.yml up -d<br>
+cd jhipster_project/uaa/src/main/docker
+sudo docker-compose -f jhipster-registry.yml up -d
 ```
-## 3. Start UAA(OAuth2)<br>
+## 3. Start UAA(OAuth2)
 ```
 cd uaa
 ./mvnw
 ```
-## 4. Start apigateway<br>
+## 4. Start apigateway
 ```
 cd apigateway
 ./mvnw
 ```
 
-## 5. Start sidecar(spring protect any rest any language)<br>
+## 5. Start sidecar(spring protect any rest any language)
 ```
 cd sidecar
 mvn spring-boot:run
 ```
 
-## 6. Start microservice(Spring)<br>
+## 6. Start microservice(Spring)
 ```
 cd microservice
 mvn spring-boot:run
 ```
 
-## 7. Start play-service(PlayFramework)<br>
+## 7. Start play-service(PlayFramework)
 ```
 cd play-service
 ./sbt run
