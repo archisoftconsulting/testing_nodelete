@@ -2,11 +2,11 @@ steps to start:
 
 1. Start mongodb<br>
 cd jhipster_project/uaa/src/main/docker<br>
-sudo docker-compose -f mongodb.yml up -d
+sudo docker-compose -f mongodb.yml up -d<br>
 
-2. Start service registry
-cd jhipster_project/uaa/src/main/docker
-sudo docker-compose -f jhipster-registry.yml up -d
+2. Start service registry<br>
+cd jhipster_project/uaa/src/main/docker<br>
+sudo docker-compose -f jhipster-registry.yml up -d<br>
 
 3. Start UAA
 ./mvnw
