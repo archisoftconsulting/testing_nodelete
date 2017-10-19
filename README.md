@@ -2,13 +2,13 @@
 
 ## 1. Start mongodb
 ```
-cd jhipster_project/uaa/src/main/docker
+cd /uaa/src/main/docker
 sudo docker-compose -f mongodb.yml up -d
 ```
 
 ## 2. Start service registry
 ```
-cd jhipster_project/uaa/src/main/docker
+cd /uaa/src/main/docker
 sudo docker-compose -f jhipster-registry.yml up -d
 ```
 ## 3. Start UAA(OAuth2)
